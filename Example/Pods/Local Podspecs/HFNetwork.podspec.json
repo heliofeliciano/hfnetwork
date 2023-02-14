@@ -1,0 +1,22 @@
+{
+  "name": "HFNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of HFNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/heliofeliciano/HFNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "heliofeliciano": "heliofeliciano@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/heliofeliciano/HFNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HFNetwork/Classes/**/*"
+}

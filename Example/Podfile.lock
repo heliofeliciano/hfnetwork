@@ -1,0 +1,16 @@
+PODS:
+  - HFNetwork (0.1.0)
+
+DEPENDENCIES:
+  - HFNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  HFNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HFNetwork: 6e5f4f3dc848b55bd15890814127820e8771b373
+
+PODFILE CHECKSUM: 550919a7e7a55c0360a131846c96b7f8ba477c28
+
+COCOAPODS: 1.11.3

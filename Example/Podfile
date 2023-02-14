@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'HFNetwork_Example' do
+  pod 'HFNetwork', :path => '../'
+
+  target 'HFNetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
