@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  HFNetwork
-//
-//  Created by heliofeliciano on 02/14/2023.
-//  Copyright (c) 2023 heliofeliciano. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
@@ -13,9 +5,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let viewController = ViewController()
+        let navigationController = UINavigationController(rootViewController: viewController)
+        window = UIWindow()
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
         return true
     }
 
