@@ -98,6 +98,7 @@
 		607FACD21AFB9204008FA782 /* Example for HFNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				B881254A299C102F00D13D64 /* Network */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -142,6 +143,13 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B881254A299C102F00D13D64 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
 		EF19E70C36A88A1669479B93 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +172,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				B7203BD0DA594D8E4077E76C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,24 +261,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B7203BD0DA594D8E4077E76C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HFNetwork_Example/Pods-HFNetwork_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HFNetwork/HFNetwork.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HFNetwork.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HFNetwork_Example/Pods-HFNetwork_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B77DABF40903F9DF2620A6CD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

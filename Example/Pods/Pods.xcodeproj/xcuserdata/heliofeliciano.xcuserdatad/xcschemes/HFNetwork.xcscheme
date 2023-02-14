@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D124E92F186F79E5F1E9E085FD7765AC"
-               BuildableName = "HFNetwork.framework"
+               BuildableName = "HFNetwork"
                BlueprintName = "HFNetwork"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

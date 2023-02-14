@@ -15,8 +15,10 @@
     "git": "https://github.com/heliofeliciano/HFNetwork.git",
     "tag": "0.1.0"
   },
+  "swift_versions": "5.0",
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "HFNetwork/Classes/**/*"
+  "source_files": "HFNetwork/Classes/**/*",
+  "swift_version": "5.0"
 }
